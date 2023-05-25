@@ -1,0 +1,59 @@
+{
+	"browser" : {
+		"has_seen_welcome_page" : false
+	},
+	"download" : {
+		"default_directory" : "D:\\Inet_OK",
+		"directory_upgrade" : true
+	},
+	"spellcheck" : {
+		"dictionaries" : [ "ru" ],
+		"dictionary" : ""
+	},
+	"translate" : {
+		"enabled" : false
+	},
+	"vivaldi" : {
+		"autoupdate_enabled" : false,
+		"bookmarks" : {
+			"language" : "ru",
+			"panel" : {
+				"sorting" : {
+					"sortField" : "manually",
+					"sortOrder" : 1
+				}
+			}
+		},
+		"privacy" : {
+			"adverse_ad_block" : {
+				"last_update" : ""
+			}
+		},
+		"startpage" : {
+			"speed_dial" : {
+				"game_button_show" : false
+			}
+		},
+		"startup" : {
+			"check_is_default" : false,
+			"speed_dial" : {
+				"game_button_show" : false
+			}
+		},
+		"system" : {
+			"show_exit_confirmation_dialog" : false
+		},
+		"theme" : {
+			"schedule" : {
+				"o_s" : {
+					"dark" : "Dark",
+					"light" : "Subtle"
+				}
+			}
+		}
+	},
+	"web_apps" : {
+		"system_web_app_last_installed_language" : "ru",
+		"system_web_app_last_update" : ""
+	}
+}
