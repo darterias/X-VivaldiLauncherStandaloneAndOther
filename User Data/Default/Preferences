@@ -77,7 +77,7 @@
                 "enabled": true
             },
             "show_close_button": true,
-            "show_toggle": true,
+            "show_toggle": false,
             "window_defaults": {
                 "barVisible": false,
                 "panelVisible": false,
