@@ -1,59 +1,217 @@
 {
-	"browser" : {
-		"has_seen_welcome_page" : false
-	},
-	"download" : {
-		"default_directory" : "D:\\Inet_OK",
-		"directory_upgrade" : true
-	},
-	"spellcheck" : {
-		"dictionaries" : [ "ru" ],
-		"dictionary" : ""
-	},
-	"translate" : {
-		"enabled" : false
-	},
-	"vivaldi" : {
-		"autoupdate_enabled" : false,
-		"bookmarks" : {
-			"language" : "ru",
-			"panel" : {
-				"sorting" : {
-					"sortField" : "manually",
-					"sortOrder" : 1
-				}
-			}
-		},
-		"privacy" : {
-			"adverse_ad_block" : {
-				"last_update" : ""
-			}
-		},
-		"startpage" : {
-			"speed_dial" : {
-				"game_button_show" : false
-			}
-		},
-		"startup" : {
-			"check_is_default" : false,
-			"speed_dial" : {
-				"game_button_show" : false
-			}
-		},
-		"system" : {
-			"show_exit_confirmation_dialog" : false
-		},
-		"theme" : {
-			"schedule" : {
-				"o_s" : {
-					"dark" : "Dark",
-					"light" : "Subtle"
-				}
-			}
-		}
-	},
-	"web_apps" : {
-		"system_web_app_last_installed_language" : "ru",
-		"system_web_app_last_update" : ""
-	}
+    "alternate_error_pages": {
+        "backup": false,
+        "enabled": false
+    },
+    "credentials_enable_service": true,
+    "download": {
+        "default_directory": "D:\\Downloads",
+        "directory_upgrade": true
+    },
+    "extensions": {
+        "ui": {
+            "developer_mode": true
+        }
+    },
+    "history": {
+        "saving_disabled": false
+    },
+    "ntp": {
+        "num_personal_suggestions": 1
+    },
+    "translate": {
+        "enabled": false
+    },
+    "vivaldi": {
+        "address_bar": {
+            "autocomplete": {
+                "prefer_bookmarks": false
+            },
+            "extensions": {
+                "render_in_dropdown": true,
+                "show_all_toggle": false
+            },
+            "omnibox": {
+                "show_search_history": false,
+                "show_top_sites": true
+            },
+            "search": {
+                "show_favicon": true
+            },
+            "show_full_url": true,
+            "show_qr_generator": true
+        },
+        "appearance": {
+            "disable_title_bar": true,
+            "range_buttons": true
+        },
+        "bookmarks": {
+            "bar": {
+                "display": 0,
+                "sorting": {
+                    "sortField": "manually",
+                    "sortOrder": 1
+                },
+                "visible": false
+            },
+            "deleted_partners": [],
+            "language": "en",
+            "panel": {
+                "sorting": {
+                    "sortField": "manually",
+                    "sortOrder": 1
+                }
+            }
+        },
+        "history": {
+            "days_to_keep_visits": 3650
+        },
+        "homepage": "vivaldi://startpage",
+        "keyboard": {
+            "shortcuts": {
+                "alt_opens_menu": false
+            }
+        },
+        "panels": {
+            "as_overlay": {
+                "enabled": true
+            },
+            "show_close_button": true,
+            "show_toggle": true,
+            "window_defaults": {
+                "barVisible": false,
+                "panelVisible": false,
+                "width": 400
+            }
+        },
+        "privacy": {
+            "adverse_ad_block": {
+                "enabled": false
+            },
+            "google_component_extensions": {
+                "hangout_services": false
+            }
+        },
+        "settings": {
+            "in_tab": true
+        },
+        "startpage": {
+            "navigation": 0,
+            "speed_dial": {
+                "add_button_visible": true,
+                "columns": 99,
+                "delete_visible": false,
+                "display_search": false,
+                "privacy_stats_show": false,
+                "size": 1
+            }
+        },
+        "startup": {
+            "check_is_default": false
+        },
+        "tabs": {
+            "active_min_size": 60,
+            "align_next": true,
+            "confirm_closing_threshold": 5,
+            "cycle_by_recent_order": false,
+            "dim_hibernated": true,
+            "show_close_button": false,
+            "show_separator": true
+        },
+        "theme": {
+            "dim_blurred": false,
+            "schedule": {
+                "enabled": 0
+            },
+            "simple_scrollbar": true
+        },
+        "themes": {
+            "current": "49104b8a-91b9-41b2-a153-9413107c6ffe",
+            "user": [{
+                "accentFromPage": false,
+                "accentOnWindow": true,
+                "accentSaturationLimit": 1,
+                "alpha": 0.9,
+                "backgroundImage": "",
+                "backgroundPosition": "stretch",
+                "blur": 9,
+                "colorAccentBg": "#dddddd",
+                "colorBg": "#fafafa",
+                "colorFg": "#333333",
+                "colorHighlightBg": "#3874ff",
+                "colorWindowBg": "#f4f6f8",
+                "contrast": 1,
+                "engineVersion": 1,
+                "id": "49104b8a-91b9-41b2-a153-9413107c6ffe",
+                "name": "Whiteness",
+                "preferSystemAccent": false,
+                "radius": 4,
+                "transparencyTabBar": false,
+                "transparencyTabs": false,
+                "url": "",
+                "version": 1
+            }, {
+                "accentFromPage": false,
+                "accentOnWindow": false,
+                "accentSaturationLimit": 1,
+                "alpha": 0.9,
+                "backgroundImage": "",
+                "backgroundPosition": "stretch",
+                "blur": 9,
+                "colorAccentBg": "#2b2b2b",
+                "colorBg": "#1d1d1d",
+                "colorFg": "#b9b9b9",
+                "colorHighlightBg": "#3874ff",
+                "colorWindowBg": "#161616",
+                "contrast": 1,
+                "engineVersion": 1,
+                "id": "d7f27087-077d-4ef1-8ef0-06298d71a5ad",
+                "name": "Blackness",
+                "preferSystemAccent": false,
+                "radius": 4,
+                "transparencyTabBar": false,
+                "transparencyTabs": false,
+                "url": "",
+                "version": 1
+            }, {
+                "accentFromPage": false,
+                "accentOnWindow": false,
+                "accentSaturationLimit": 1,
+                "alpha": 0.9,
+                "backgroundImage": "",
+                "backgroundPosition": "stretch",
+                "blur": 9,
+                "colorAccentBg": "#2d333b",
+                "colorBg": "#20252c",
+                "colorFg": "#adbac7",
+                "colorHighlightBg": "#327deb",
+                "colorWindowBg": "#191e25",
+                "contrast": 1,
+                "engineVersion": 1,
+                "id": "c19809bc-5bb7-404d-853f-2782d66f8e3c",
+                "name": "ColdFire Dark",
+                "preferSystemAccent": false,
+                "radius": 5,
+                "transparencyTabBar": false,
+                "transparencyTabs": false,
+                "url": "",
+                "version": 1
+            }]
+        },
+        "toolbars": {
+            "navigation": ["PanelToggle", "Back", "Forward", "Reload", "Home", "AddressField", "UpdateButton", "Extensions", "AccountButton"]
+        },
+        "translate": {
+            "enabled": false
+        },
+        "webpages": {
+            "allow_selection_in_links": false
+        },
+        "workspaces": {
+            "button": {
+                "show_in_tabbar": true,
+                "show_name": false
+            }
+        }
+    }
 }

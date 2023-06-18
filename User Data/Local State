@@ -1,5 +1,10 @@
 {
    "background_mode": {
-      "enabled": false
+       "enabled": false
+   },
+   "vivaldi": {
+       "autoupdate": {
+           "standalone": false
+       }
    }
 }
