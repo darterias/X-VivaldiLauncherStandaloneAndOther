@@ -110,11 +110,16 @@
             "check_is_default": false
         },
         "tabs": {
+            "activation": {
+                "on_close": 1,
+                "prefer_related": false
+            },
             "active_min_size": 60,
             "align_next": true,
             "confirm_closing_threshold": 5,
             "cycle_by_recent_order": false,
             "dim_hibernated": true,
+            "new_placement": 1,
             "show_close_button": false,
             "show_separator": true
         },
