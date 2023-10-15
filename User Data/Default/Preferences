@@ -119,7 +119,7 @@
             "confirm_closing_threshold": 5,
             "cycle_by_recent_order": false,
             "dim_hibernated": true,
-            "new_placement": 1,
+            "new_placement": 0,
             "show_close_button": false,
             "show_separator": true
         },
