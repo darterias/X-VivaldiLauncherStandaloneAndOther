@@ -1,10 +1,15 @@
 {
-   "background_mode": {
-       "enabled": false
-   },
-   "vivaldi": {
-       "autoupdate": {
-           "standalone": false
-       }
-   }
-}
+    "background_mode": {
+        "enabled": false
+    },
+    "browser": {
+       "enabled_labs_experiments": [
+          "https-upgrades@2"
+       ]
+    },
+    "vivaldi": {
+        "autoupdate": {
+            "standalone": false
+        }
+    }
+ }
