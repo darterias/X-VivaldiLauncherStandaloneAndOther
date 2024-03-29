@@ -122,7 +122,7 @@
             "new_placement": 0,
             "show_close_button": false,
             "show_separator": true,
-         "show_synced_tabs_button": false
+            "show_synced_tabs_button": false
         },
         "theme": {
             "dim_blurred": false,
